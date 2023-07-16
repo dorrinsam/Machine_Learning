@@ -9,7 +9,7 @@ import seaborn as sns
 import matplotlib.pyplot as plt
 
 # read data
-path = 'C:/Users/OMID/OneDrive/Freelance/Project 4'
+path = 'content/Employee data'
 df = pd.read_csv(path+'/'+'data.csv')
 df = pd.DataFrame(df)
 df.head(100)
