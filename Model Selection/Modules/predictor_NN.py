@@ -8,7 +8,7 @@ from math import sqrt
 from sklearn.neural_network import MLPRegressor
 
 # read data
-path = 'C:/Users/OMID/OneDrive/Freelance/Project 4'
+path = 'C:/Users/Dorrin/Simulation_Project'
 df = pd.read_csv(path+'/'+'data.csv')
 df = pd.DataFrame(df)
 df.head(100)
