@@ -8,7 +8,7 @@ from sklearn.metrics import mean_squared_error, mean_absolute_error
 from math import sqrt
 
 # read data
-path = 'C:/Users/OMID/OneDrive/Freelance/Project 4'
+path = 'C:/Users/Dorrin/Simulation_Project'
 df = pd.read_csv(path+'/'+'data.csv')
 df = pd.DataFrame(df)
 df.head(100)
