@@ -9,7 +9,7 @@ import seaborn as sns
 import matplotlib.pyplot as plt
 
 # read data
-path = 'content/Employee data'
+path = 'C:/Users/Dorrin/Simulation_Project'
 df = pd.read_csv(path+'/'+'data.csv')
 df = pd.DataFrame(df)
 df.head(100)
